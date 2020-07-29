@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter generic-armv7,$(TARGET_DEVICE)),)
+ifneq ($(filter lineage_generic,$(TARGET_DEVICE)),)
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
 endif

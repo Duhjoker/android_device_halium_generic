@@ -18,7 +18,7 @@ BOARD_VENDOR := halium
 
 DEVICE_PATH := device/halium/generic
 
-include build/target/board/generic-armv7/BoardConfig.mk
+include build/target/board/generic/BoardConfig.mk
 
 # Ramdisk
 BOARD_ROOT_EXTRA_FOLDERS += efs
