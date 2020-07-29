@@ -1,1 +1,3 @@
-# android_device_halium_generic
+
+Device configuration for Halium ubuntu touch (ubport)
+==================================
